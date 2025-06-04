@@ -1,6 +1,6 @@
 # ChainPilot
 
-![Team_Logo]()
+![Team_Logo](https://github.com/Ewrnlleh/ChainPilot/blob/main/ChatGPT%20Image%20Jun%204%2C%202025%2C%2008_38_43%20PM.png)
 
 ## About Me
 
