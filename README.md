@@ -80,9 +80,13 @@ using yarn: yarn install
 Create a .env file in the root folder and add your blockchain RPC URLs, API keys, and other necessary configuration. Example:
 
 ETHEREUM_RPC_URL=https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+
 POLYGON_RPC_URL=https://polygon-rpc.com
+
 BNB_RPC_URL=https://bsc-dataseed.binance.org/
+
 ARBITRUM_RPC_URL=https://arb1.arbitrum.io/rpc
+
 SCROLL_RPC_URL=https://scroll.io/rpc
 
 
