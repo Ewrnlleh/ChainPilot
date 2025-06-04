@@ -52,8 +52,11 @@ Follow these steps to set up ChainPilot locally:
 
 ### Prerequisites:
 -Node.js (v16 or higher)
+
 -npm or yarn
+
 -Git
+
 -Access to supported blockchain networks (Ethereum, Polygon, BNB Chain, Arbitrum, Scroll) via RPC URLs or wallet providers
 
 ### Steps
@@ -61,12 +64,15 @@ Follow these steps to set up ChainPilot locally:
 
 #### 1. Clone the repository
 git clone https://github.com/your-username/chainpilot.git
+
 cd chainpilot
 
 
 #### 2. Install dependencies
 Using npm: npm install    
+
 Or   
+
 using yarn: yarn install
 
 
@@ -82,7 +88,9 @@ SCROLL_RPC_URL=https://scroll.io/rpc
 
 #### 4. Start the development server
 npm run dev    
+
 or    
+
 yarn dev
 
 
