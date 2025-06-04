@@ -46,50 +46,36 @@ XXXXXXXXXXXXXXXXX
 
 ## Setup Environment
 
-ChainPilot
-Installation
+### ChainPilot Installation
+
 Follow these steps to set up ChainPilot locally:
 
-Prerequisites
-Node.js (v16 or higher)
+### Prerequisites:
+-Node.js (v16 or higher)
+-npm or yarn
+-Git
+-Access to supported blockchain networks (Ethereum, Polygon, BNB Chain, Arbitrum, Scroll) via RPC URLs or wallet providers
 
-npm or yarn
+### Steps
 
-Git
-
-Access to supported blockchain networks (Ethereum, Polygon, BNB Chain, Arbitrum, Scroll) via RPC URLs or wallet providers
-
-Steps
-Clone the repository
-
-
+#### 1. Clone the repository
 git clone https://github.com/your-username/chainpilot.git
 cd chainpilot
-Install dependencies
-Using npm:
 
+#### 2. Install dependencies
+Using npm: npm install    Or   using yarn: yarn install
 
-npm install
-Or using yarn:
-
-
-yarn install
-Configure environment variables
+#### 3. Configure environment variables
 Create a .env file in the root folder and add your blockchain RPC URLs, API keys, and other necessary configuration. Example:
-
 
 ETHEREUM_RPC_URL=https://mainnet.infura.io/v3/YOUR_INFURA_KEY
 POLYGON_RPC_URL=https://polygon-rpc.com
 BNB_RPC_URL=https://bsc-dataseed.binance.org/
 ARBITRUM_RPC_URL=https://arb1.arbitrum.io/rpc
 SCROLL_RPC_URL=https://scroll.io/rpc
-Start the development server
 
+#### 4. Start the development server
+npm run dev    or    yarn dev
 
-npm run dev
-or
-
-
-yarn dev
-Access the dashboard
+#### 5. Access the dashboard
 Open your browser and go to http://localhost:3000 to view the ChainPilot interface.
