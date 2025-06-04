@@ -58,12 +58,17 @@ Follow these steps to set up ChainPilot locally:
 
 ### Steps
 
+
 #### 1. Clone the repository
 git clone https://github.com/your-username/chainpilot.git
 cd chainpilot
 
+
 #### 2. Install dependencies
-Using npm: npm install    Or   using yarn: yarn install
+Using npm: npm install    
+Or   
+using yarn: yarn install
+
 
 #### 3. Configure environment variables
 Create a .env file in the root folder and add your blockchain RPC URLs, API keys, and other necessary configuration. Example:
@@ -74,8 +79,12 @@ BNB_RPC_URL=https://bsc-dataseed.binance.org/
 ARBITRUM_RPC_URL=https://arb1.arbitrum.io/rpc
 SCROLL_RPC_URL=https://scroll.io/rpc
 
+
 #### 4. Start the development server
-npm run dev    or    yarn dev
+npm run dev    
+or    
+yarn dev
+
 
 #### 5. Access the dashboard
 Open your browser and go to http://localhost:3000 to view the ChainPilot interface.
